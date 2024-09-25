@@ -104,6 +104,11 @@ video {
   background: #fdf0d5;
   border: 1px solid #c1121f;
   text-transform: uppercase;
+  text-align: center;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .calltoaction {
@@ -113,17 +118,25 @@ video {
   color: #fdf0d5;
   font-family: "Playfair Display";
   text-transform: uppercase;
+  text-align: center;
+  width: 250px;
+  margin: 0 auto;
 }
-
+.exercise-row .exercise-content {
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+}
 /* 03. Centrer verticalement */
 
 .card {
   width: 150px;
   height: 150px;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 45px;
   border-radius: 10px;
   background: #669bbc;
+  width: 200px;
 }
 
 .button {
@@ -132,6 +145,7 @@ video {
   background: #780000;
   color: #fdf0d5;
   text-align: center;
+  gap: 400x;
 }
 
 /* 04. Intégration */
