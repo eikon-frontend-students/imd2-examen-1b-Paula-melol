@@ -137,6 +137,7 @@ video {
   border-radius: 10px;
   background: #669bbc;
   width: 200px;
+  height: 150px;
 }
 
 .button {
@@ -145,7 +146,8 @@ video {
   background: #780000;
   color: #fdf0d5;
   text-align: center;
-  gap: 400x;
+  gap: 400px;
+  padding: 20px;
 }
 
 /* 04. Intégration */
@@ -172,17 +174,15 @@ video {
   justify-content: space-between;
   align-items: center;
   display: flex;
-  gap: 4px;
+  gap: 70px;
 }
 .left {
   display: flex;
   align-items: center;
   gap: 10px;
   display: flex;
-  height: 50px;
-  padding: 0px 20px;
+
   justify-content: space-between;
-  align-items: center;
 }
 .fond {
   display: flex;
